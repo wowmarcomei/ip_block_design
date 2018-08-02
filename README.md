@@ -1,4 +1,4 @@
-# # IP Block Design
+# IP Block Design
 
 在日常工作中，经常需要划分`IP`网段，一般客户会给我们提供一个大段的私网地址，比如`18`位掩码`IP`，如果使用手工分配的话，会耗费大量的精力，也容易出错，因此写了这个小工具，可以自动完成`IP`设计。
 
@@ -6,7 +6,6 @@
 
 - IPy: `pip3 install IPy`
 - xlsxwriter: `pip3 install xlsxwriter`
-
 
 
 ## 使用步骤
@@ -23,4 +22,4 @@
 $python3 ip_block_design.py
 ```
 
-![示意图](https://github.com/wowmarcomei/ip_block_design/snapshot.png)
+![示意图](https://github.com/wowmarcomei/ip_block_design/blob/master/snapshot.png)
